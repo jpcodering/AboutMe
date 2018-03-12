@@ -1,0 +1,26 @@
+:root {
+  --logoJu: rgba(179,179,179,1);
+  --logoPa: rgba(0,8,124,1);
+  --logoAr: rgba(71,71,71,1);
+  --logoBa: rgba(170,212,255,1);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.logo-name{
+width: 200px;
+}
+
+/* SVG STYLE */
+.a{fill:var(--logoJu);}
+.b{fill:var(--logoPa);}
+.c{fill:var(--logoAr);}
+.d{fill:var(--logoBa);}
+/* SVG STYLE */
+
+#nav{
+
+}
