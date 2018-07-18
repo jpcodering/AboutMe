@@ -28,7 +28,9 @@ text-align: center;
 /* SVG STYLE */
 
 section#banner{
-  width: 100%;
+  padding-top: 100px;
+  width: 100vh;
+  background-image: url();
   background-color: rgb(246, 242, 213);
   height: 100vh;
 
