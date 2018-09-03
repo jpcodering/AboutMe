@@ -15,6 +15,9 @@ $(document).ready(function() {
       $(".via").css({
         "visibility": "visible"
       });
+      $("header>nav>ul").css({
+        "display": "block"
+      });
       $("#down").css({
         "display": "none"
       });
@@ -26,6 +29,9 @@ $(document).ready(function() {
       });
       $("header").css({
         "background-color": "transparent"
+      });
+      $("header>nav>ul").css({
+        "display": "none"
       });
       $(".via").css({
         "visibility": "hidden"

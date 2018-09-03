@@ -87,7 +87,12 @@ header #logo {
   border-style: solid;
   border-radius: 50%;
 }
-
+@media all and (max-width:978px){
+  header{
+    min-width: 400px;
+    font-size: 10px;
+  }
+}
 .down-me {
   display: block;
   margin: auto;
@@ -124,13 +129,13 @@ header #logo {
 
 .indice{
   display: block;
-  background-color: var(--logoAr);
-  margin-top: 150px;
-  max-width: 70%;
-  padding: 30px;
-  text-align: center;
   overflow: hidden;
+  margin-top: 150px;
+  padding: 30px;
+  max-width: 70%;
+  background-color: var(--logoAr);
   color: var(--logobg);
+  text-align: center;
   font-size: 3vw;
 }
 
@@ -138,14 +143,14 @@ header #logo {
 /* @group boton arriba */
 
 .ir-arriba {
-  z-index: 5000;
-  display: none;
   position: fixed;
   right: 20px;
   bottom: 20px;
-  padding: 20px;
-  color: #fff;
+  z-index: 5000;
+  display: none;
+  padding: 10px;
   background: hsla(200,60%,40%,0.8);
+  color: #fff;
   font-size: 30px;
   cursor: pointer;
 }
