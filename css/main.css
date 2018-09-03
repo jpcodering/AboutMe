@@ -1,0 +1,157 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@import url("fonts.css");
+@import url("normalize.css");
+
+:root {
+  --logobg: hsla(200,10%,98%,1);
+  --logoJu: hsla(200,30%,80%,1);
+  --logoPa: hsla(200,60%,50%,1);
+  --logoAr: hsla(200,35%,60%,1);
+  --logoBa: hsla(200,75%,70%,1);
+  --header: hsla(200,60%,40%,1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: helvetica;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.pad {
+  padding: 2%;
+}
+
+.panes {
+  display: block;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.zl {
+  background: var(--logoJu);
+}
+
+header {
+  display: block;
+  position: fixed;
+  width: 100%;
+  min-width: 600px;
+  height: 70px;
+  transition: all .5s;
+}
+
+header nav {
+  display: table;
+  margin: auto;
+  margin-top: 15px;
+  height: 40px;
+}
+
+header nav>ul {
+  display: block;
+  float: left;
+  list-style: none;
+}
+
+header nav>ul a {
+  color: var(--logobg);
+  text-decoration: none;
+  text-shadow: 1px 1px 5px #000;
+}
+
+.via{
+  visibility: hidden;
+}
+
+header nav li {
+  float: left;
+  margin: 10px;
+  padding: 2px;
+}
+
+header #logo {
+  float: left;
+  display: block;
+  height: 30vh;
+  margin-top: 30vh;
+  margin-left: 30px;
+  margin-right: 30px;
+  transition: all .5s;
+  border-color: var(--logobg);
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 50%;
+}
+
+.down-me {
+  display: block;
+  margin: auto;
+  margin-top: 20%;
+  height: 10vh;
+}
+
+.name{
+  display: block;
+  margin:auto;
+  margin-top: 30vh;
+  width: 50vw;
+}
+
+.frase{
+  display: block;
+  background-color: var(--logoAr);
+  margin-top: 40%;
+  margin-left: 30%;
+  padding: 25px;
+  text-align: center;
+}
+
+.frase-p{
+  color: var(--logobg);
+  font-size: 3vw;
+}
+.frase-autor{
+  display: block;
+  margin: auto;
+  color: var(--logobg);
+  font-style: italic;
+}
+
+.indice{
+  display: block;
+  background-color: var(--logoAr);
+  margin-top: 200px;
+  max-width: 70%;
+  padding: 30px;
+  text-align: center;
+  overflow: hidden;
+  color: var(--logobg);
+  font-size: 3vw;
+}
+
+
+/* @group boton arriba */
+
+.ir-arriba {
+  z-index: 5000;
+  display: none;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  padding: 20px;
+  color: #fff;
+  background: hsla(200,60%,40%,0.8);
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.ir-arriba:before {
+  content: "\ec32";
+}
+
+/* @end boton arriba */
