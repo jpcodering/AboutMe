@@ -91,7 +91,7 @@ header #logo {
 .down-me {
   display: block;
   margin: auto;
-  margin-top: 20%;
+  margin-top: 10%;
   height: 10vh;
 }
 
@@ -105,7 +105,7 @@ header #logo {
 .frase{
   display: block;
   background-color: var(--logoAr);
-  margin-top: 40%;
+  margin-top: 30%;
   margin-left: 30%;
   padding: 25px;
   text-align: center;
@@ -125,7 +125,7 @@ header #logo {
 .indice{
   display: block;
   background-color: var(--logoAr);
-  margin-top: 200px;
+  margin-top: 150px;
   max-width: 70%;
   padding: 30px;
   text-align: center;
