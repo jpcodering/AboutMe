@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 300">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: hsla(200, 30%, 80%, 1);
+      }
+      .cls-2 {
+        fill: hsla(200, 10%, 98%, 1);
+      }
+    </style>
+  </defs>
+  <g id="Livello_2">
+    <g id="Livello_1-2"><rect width="350" height="300" class="cls-1" rx="20" ry="20"/><path d="M81.58 99.21v101.86l87.69 55.78V154.81l-87.69-55.6zm99.69 157.64l87.15-55.78V99.21l-87.15 55.6v102.04zM87.58 88.21l87.69 55.6 87.15-55.6-87.15-56.06-87.69 56.06z" class="cls-2"/></g>
+  </g>
+</svg>
