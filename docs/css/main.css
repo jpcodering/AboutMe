@@ -20,11 +20,81 @@
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  /* border-style: solid; */
+  border: 1px solid;
+}
+
+html,body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.b1{
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	top: 0;
+	display: table;
 }
 
 /* html{background:silver;} */
 /* body{background:white;display:block;max-width: 200px;max-height: 600px;overflow:hidden;} */
+
+.relative {
+  display: block;
+  background-color: hsla(200, 30%, 80%, 1);
+  width: 100%;
+  min-height: 600px;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #000;
+}
+
+.fixed {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+}
+
+.static {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  position: static;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+  max-height: 30%;
+  max-width: 30%;
+  transition: all .5s;
+  /* border-style: solid; */
+}
+
+.name {
+  display: block;
+  margin: auto;
+  margin-top: 10%;
+  max-width: 50%;
+  max-height: 30%;
+  transition: all .5s;
+  /* border-style: solid; */
+}
+
+.down-me {
+  position: relative;
+  max-width: 10%;
+  max-height: 30%;
+	display: block;
+	text-align: center;
+	align-items: center;
+	margin: auto;
+	bottom: 0;
+}
 
 .limit {
   background: white;
@@ -72,7 +142,7 @@ hr {
   display: block;
   min-height: 100vh;
   overflow: hidden;
-  position: relative;
+  position: static;
   /* border-style: solid; */
 }
 
@@ -82,36 +152,6 @@ hr {
 
 .zl {
   background: var(--logoJu);
-}
-
-.logo {
-  display: block;
-  margin: auto;
-  margin-top: 30vh;
-  max-width: 30%;
-  max-height: 30vh;
-  transition: all .5s;
-  /* border-style: solid; */
-}
-
-.name {
-  display: block;
-  margin: auto;
-  margin-top: 30vh;
-  max-width: 50vw;
-  max-height: 30vh;
-  transition: all .5s;
-  /* border-style: solid; */
-}
-
-.down-me {
-  display: block;
-  margin: auto;
-  margin-top: 15vh;
-  margin-bottom: 2vh;
-  max-width: 10vw;
-  max-height: 10vh;
-  /* border-style: solid; */
 }
 
 .frase {
