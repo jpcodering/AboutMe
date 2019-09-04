@@ -1,0 +1,37 @@
+:root {
+  --logobg: hsla(200, 10%, 98%, 1);
+  --logoJu: hsla(200, 30%, 80%, 1);
+  --logoPa: hsla(200, 60%, 50%, 1);
+  --logoAr: hsla(200, 35%, 60%, 1);
+  --logoBa: hsla(200, 75%, 70%, 1);
+  --header: hsla(200, 60%, 40%, 1);
+  --headerShadow: 0px 1px 20px rgba(0, 0, 0, .5);
+}
+
+.bg-j{
+  background-color: var(--logoJu);
+}
+
+.bg-p{
+  background-color: var(--logoPa);
+}
+
+.bg-b{
+  background-color: var(--logoBa);
+}
+
+.bg-a{
+  background-color: var(--logoAr);
+}
+
+.bg-h{
+  background-color: var(--header);
+}
+
+.bg-l{
+  background-color: var(--logobg);
+}
+
+.r90deg{
+  transform: rotate(-90deg);
+}

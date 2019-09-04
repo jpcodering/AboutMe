@@ -1,4 +1,5 @@
 $(document).ready(function() {
+
   /////////////////////////////////////
   // go top function //////////////////
   /////////////////////////////////////
@@ -8,6 +9,7 @@ $(document).ready(function() {
     }, 300);
   });
 
+
   $(window).scroll(function() {
     if ($(this).scrollTop() > 0) {
       $('.ir-arriba').slideDown(300);
@@ -15,6 +17,7 @@ $(document).ready(function() {
       $('.ir-arriba').slideUp(300);
     }
   });
+
 
   /////////////////////////////////////
   // Smooth Scroll function ///////////
