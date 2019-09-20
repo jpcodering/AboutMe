@@ -65,7 +65,7 @@ html,body{
 .logo {
   display: block;
   margin: auto;
-  height: 30%;
+  height: 30% !important;
   width: 30%;
   max-width: 250px;
   transition: all .5s;
