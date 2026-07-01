@@ -90,6 +90,8 @@
  * Maneggio ed installazione di macchine per timbri digitali e ricamo industriale digitale.
  * Maneggio ed installazione di sistemi di stampa laser, inkjet, solvent e eco-solvent.
  * Maneggio ed installazione di pantografo computerizzato AXYZ Millennium.
+ * Sysadmin (è il professionista IT che garantisce l'operatività, la sicurezza e l'efficienza dell'infrastruttura tecnologica aziendale)
+ * Problem Solver (consiste nell'analizzare guasti complessi, diagnosticare malfunzionamenti di rete o server e applicare soluzioni rapide per minimizzare i tempi di fermo)
 
 ## Capacità e Competenze Informatiche
 
