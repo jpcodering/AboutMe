@@ -83,6 +83,15 @@
    * Comunicazione chiara e precisa, orientata alle richieste della clientela.
  * **Organizzative:** * Organizzazione autonoma del lavoro, definizione delle priorità e rispetto delle scadenze.
    * Capacità di lavorare in situazioni di stress.
+   * Capacità di lavorare in team e comunicazione efficace
+Problem solving e pensiero analitico
+Adattabilità e voglia di aggiornarsi continuamente
+Gestione del tempo e delle priorità nei progetti complessi
+Orientamento al risultato e alla qualità del lavoro
+Capacità di apprendere rapidamente nuove tecnologie
+Leadership e gestione di piccoli team o progetti
+Creatività e approccio innovativo nella risoluzione dei problemi
+Resilienza e gestione dello stress in contesti dinamici
 
 ### **Competenze Tecniche e di Gestione**
  * Gestione del sistema informativo del personale (stipendi, presenze/assenze, note spese, budget, controllo accessi).
